@@ -1,0 +1,9 @@
+body {
+  background: black;
+  margin: 0; }
+
+section.container {
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  background: white; }
