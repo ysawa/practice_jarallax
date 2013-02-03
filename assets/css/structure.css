@@ -1,6 +1,6 @@
 body {
-  background: black;
-  margin: 0; }
+  margin: 0;
+  background: white url(../img/background.png) no-repeat fixed; }
 
 section.container {
   width: 300px;

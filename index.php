@@ -4,6 +4,11 @@
 <? include 'templates/head.php'; ?>
 </head>
 <body>
+<div id='dark'></div>
+<div class='cloud' id='cloud4'></div>
+<div class='cloud' id='cloud3'></div>
+<div class='cloud' id='cloud2'></div>
+<div class='cloud' id='cloud1'></div>
 <section class='container'>
 <h1>
 Jarallax

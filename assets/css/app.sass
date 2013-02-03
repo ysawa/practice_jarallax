@@ -1,4 +1,40 @@
-/*
- *= require structure
- */
 
+.cloud
+  position: fixed
+  width: 2000px
+  margin-left: -1000px
+  left: 50%
+  z-index: -1
+
+@for $i from 1 through 4
+  #cloud#{$i}
+    background: url(../img/cloud#{$i}.png)
+
+
+#cloud1
+  height: 692px
+  margin-top: -346px
+  top: 100%
+
+#cloud2
+  height: 484px
+  margin-top: -242px
+  top: 90%
+
+#cloud3
+  height: 444px
+  margin-top: -222px
+  top: 70%
+
+#cloud4
+  height: 285px
+  margin-top: -142px
+  top: 55%
+
+#dark
+  position: fixed
+  width: 100%
+  height: 100%
+  top: 100%
+  background: rgba(0, 0, 0, 0.5)
+  z-index: -2
